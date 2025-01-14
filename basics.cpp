@@ -5,7 +5,115 @@
 //This line allows you to use the standard namespace (std) without having to prefix std:: to standard library identifiers like cout and cin.
 using namespace std;
 //this is the main function
+// int printhello(int n){
+//     for(int i=0;i<n;i++){
+//         cout<<"hello"<<endl;
+//     }
+    
+// }
+
+// int minofnum(int a,int b){
+//     if(a<b){
+//         return a;
+//     }
+//     return b;
+// }
+
+// int fact(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//     return n*fact(n-1);
+// }
+
+
+// int sumofdig(int n){
+//     int sum=0;
+//     while(n>0){
+//         int lastdig = n%10;
+//         n=n/10;
+//         sum+=lastdig;
+
+//     }
+//     return sum;
+
+// }
+
+// int reverse(int n){
+//     int revnum=0;
+//     while(n>0){
+//         int ld = n%10;
+//         revnum = (revnum*10)+ld;
+//         n=n/10;
+//     }
+//     return revnum;
+// }
+
+// bool palin(int n){
+//     int revnum=0;
+//     int dup = n;
+//     while(n>0){
+//         int ld = n%10;
+//         revnum = (revnum*10)+ld;
+//         n=n/10;
+
+
+//     }
+//     if(dup = revnum){
+//         return true;
+//     }else{
+//          return false;
+//     }
+    
+// }
+
+
+// int gcd(int a,int b){
+//     while(b!=0){
+//         int temp = b;
+//         b = a%b;
+//         a = temp;
+//     }
+//     return a;
+
+// }
+
+
+// bool armstrong(int n){
+//     int num,originalnum,result=0;
+//     originalnum = num;
+//     while(originalnum!=0){
+//         int rem = originalnum%10;
+//         result += rem*rem*rem;
+//         originalnum=originalnum/10;
+//     }
+//     return result = num;
+  
+// }
+
+// void divisors(int n){
+//     for(int i=1;i<=n;i++){
+//     if(n%i==0){
+//         cout<<i<<" ";
+//     }
+  
+// }
+//   cout<<endl;
+// }
+
+
+
+
+
+
+
+
 int main(){
+    // int a,b;
+    // cin>>a>>b;
+
+    int n;
+    cin>>n;
 
     //DATA TYPES AND VARIABLES
 
@@ -94,6 +202,33 @@ int main(){
 //             primeCount++;
 //             if (primeCount == m) break; // Stop when m primes are found
 //         }
+//     }
+
+
+// cout<<minofnum(a,b);
+// cout<<fact(n);
+// cout<<sumofdig(n);
+
+// cout<<reverse(n);
+
+// if(palin(n)){
+//     cout<<"hai oaara";
+// }
+// else{
+//     cout<<"nahi hai oaara";
+// }
+
+// cout<<gcd(a,b);
+//  if(armstrong(n)){
+//     cout<<"hai yeh";
+//  }
+//  else{
+//     cout<<"nahi hai";
+//  }
+//   if (n > 0) {
+//         divisors(n);
+//     } else {
+//         cout << "Please enter a positive number." << endl;
 //     }
 
 
