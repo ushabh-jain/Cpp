@@ -1,4 +1,6 @@
 //here we select the minimums and SWAP 
+// TC->O(N^2)
+// SC->O(1)
 #include<bits/stdc++.h>
 using namespace std;
 int selection_sort(int arr[],int n){
