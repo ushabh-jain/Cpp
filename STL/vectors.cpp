@@ -53,3 +53,74 @@ int main(){
 
 
 }
+
+// push_back()
+// Purpose: Adds an element to the end of the vector.
+// Syntax: vec.push_back(value);
+// Time Complexity: Amortized O(1).
+
+
+// pop_back()
+// Purpose: Removes the last element from the vector.
+// Syntax: vec.pop_back();
+// Time Complexity: O(1).
+
+
+// size()
+// Purpose: Returns the number of elements in the vector.
+// Syntax: vec.size();
+// Time Complexity: O(1).
+
+
+// clear()
+// Purpose: Removes all elements from the vector, making it empty.
+// Syntax: vec.clear();
+// Time Complexity: O(n).
+
+
+// empty()
+// Purpose: Checks if the vector is empty. Returns true if empty, else false.
+// Syntax: vec.empty();
+// Time Complexity: O(1).
+
+
+// at()
+// Purpose: Accesses the element at a specific index (with bounds checking).
+// Syntax: vec.at(index);
+// Time Complexity: O(1).
+
+
+// front()
+// Purpose: Returns a reference to the first element.
+// Syntax: vec.front();
+// Time Complexity: O(1).
+
+
+// back()
+// Purpose: Returns a reference to the last element.
+// Syntax: vec.back();
+// Time Complexity: O(1).
+
+
+// resize()
+// Purpose: Changes the size of the vector. New elements are initialized to value (if provided).
+// Syntax: vec.resize(new_size, value);
+// Time Complexity: O(n).
+
+
+// insert()
+// Purpose: Inserts an element before the specified position.
+// Syntax: vec.insert(pos, value);
+// Time Complexity: O(n).
+
+
+// erase()
+// Purpose: Removes the element at the specified position.
+// Syntax: vec.erase(pos);
+// Time Complexity: O(n).
+
+
+// begin() / end()
+// Purpose: Returns iterators to the start and end of the vector.
+// Syntax: vec.begin();, vec.end();
+// Time Complexity: O(1).
