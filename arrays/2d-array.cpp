@@ -193,4 +193,46 @@
 //    return 0;
 // }
 
-//spiral of matrix
+//spiral of matrix 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,m;
+//     cin>>n>>m;
+//     int arr[n][m];
+//     for(int i=0;i<n;i++){
+//         for(int j=0;j<m;j++){
+//             cin>>arr[i][j];
+//         }
+//     }
+
+//     int rowbegin = 0;
+//     int rowend = n-1;
+//     int colbegin = 0;
+//     int colend = m-1;
+
+//     while(rowbegin<=rowend && colbegin<=colend){
+//         for(int i=colbegin;i<=colend;i++){
+//             cout<<arr[rowbegin][i]<<" ";
+//         }
+//         rowbegin++;
+//         for(int i=rowbegin;i<=rowend;i++){
+//             cout<<arr[i][colend]<<" ";
+//         }
+//         colend--;
+//         if(rowbegin<=rowend){
+//             for(int i=colend;i>=colbegin;i--){
+//                 cout<<arr[rowend][i]<<" ";
+//             }
+//             rowend--;
+//         }
+//         if(colbegin<=colend){
+//          for(int i=rowbegin;i>=rowend;i--){
+//             cout<<arr[i][colbegin]<<" ";
+//          }
+//          colbegin++;
+//         }
+        
+//     }
+//     return 0;
+// }
