@@ -20,3 +20,7 @@ int main(){
 }
 
 //TC->O(logN)
+
+
+// ch-a will give me the ascii value 
+//map<key,value> where key iis number value is frequency
