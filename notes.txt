@@ -1,3 +1,4 @@
 1 sec = 10^8 ITERATIONS
 if n <= 10^5 then TC must be O(N) or O(logN)
 if n <= 10^9 then 90% chances are woh binary search maang rha hai 10% hai ki bit manipulation lg jaye
+stack line number bhi store krta hai
