@@ -58,3 +58,5 @@ int main(){
     cout<<fibb(n);
 
 }
+
+//backtracking is nothing just a fancy name for recursion it just "do->explore->undo"
