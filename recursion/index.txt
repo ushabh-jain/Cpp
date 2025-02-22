@@ -1,0 +1,4 @@
+recursion -> descion -> smaller hota gya problem 
+whenever jidhar bhi choices + descions ki baatein ho ri hogi recursion lgega 
+je tumne je tumneee descion tree yaan recursion tree bna liya adhe se zyada kaam holiya
+recursive tree bna ne ke liye ip-op method follow kijiye
