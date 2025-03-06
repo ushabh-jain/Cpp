@@ -19,3 +19,6 @@
 //             return sum;
 //         }
 //     };
+
+
+//optimal approach hai iski sum of subarray minimum - sum of subarray maximum bss tc->O(N);
